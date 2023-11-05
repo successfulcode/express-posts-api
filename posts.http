@@ -1,0 +1,27 @@
+GET http://localhost:6003
+
+###
+
+GET http://localhost:6003/api/posts
+
+###
+
+POST http://localhost:6003/api/posts
+Content-Type: application/json
+
+{ 
+  "author": "name",
+  "title": "title",
+  "description": "description"
+}
+ 
+###
+
+GET http://localhost:6003/api/posts/6547fc8636deeac27e121551
+
+###
+
+DELETE http://localhost:6003/api/posts/654803ef8a7d047df0b0db03
+
+
+
